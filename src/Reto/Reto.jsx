@@ -26,6 +26,7 @@ const Reto = (props) => {
           </Card.Header>
           <Card.Body>
             <Form.Control
+            as="textarea"
               onChange={e => setModDescripcionReto(e.target.value)}
               defaultValue={modDescripcionReto}>
             </Form.Control>
